@@ -8,7 +8,7 @@ const taskRoutes = require('./routes/taskRoutes');
 
 
 const app = express();
-const port = 8080;
+const port = 3030;
 
 app.use(cors({
     origin: 'http://localhost:4200',
